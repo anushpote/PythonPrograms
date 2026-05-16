@@ -7,19 +7,14 @@ print(f"You like {singer}")
 
 #Integers
 age = 22
-weight = 50
 
-print(f"You are {age} years old 😭😭😭. Me too 😭")
-print(f"You weigh {weight} kgs. I hope its more than that.😀")
+print(f"You are {age} years old.")
 
 #Float
-my_price = 899.99
-your_price = 149.99
+weight = 75.27
 distance= 23
 
-print(f"I bought that helmet lock for Rs.{my_price}")
-print(f"You bought the same helmet lock for Rs.{your_price}")
-print(f"We live {distance}kms away from each other😩")
+print(f"I weigh {weight}kgs")
 
 #Boolean
 is_student = True
