@@ -22,14 +22,11 @@ print(f"You bought the same helmet lock for Rs.{your_price}")
 print(f"We live {distance}kms away from each other😩")
 
 #Boolean
-is_gay = False
 is_student = True
 
 print(f"Are you a student?: {is_student}")
-print(f"Are u gay?: {is_gay}")
-print("But really? Who knows???... jk lol ")
 
-if is_gay:
-    print("Of course you're not gay")
+if is_student:
+    print("You are a student")
 else:
-    print("Maybe you're bi")
+    print("You are not a student")
