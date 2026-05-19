@@ -1,7 +1,21 @@
-a = int(input("Enter a number"))
+# input() = A functions that prompts the user to enter data
+#           Returns the enetered data as a string
 
-b= int(input("Enter another number"))
+name = input("What is your name?: ")
+age = int(input("How old are you?: "))
 
-c = int(a + b)
+age = age + 1
 
-print(c)
+print(f"Hello {name}!")
+print(f"You are {age} years old.")
+
+
+
+# a = int(input("Enter a number"))
+
+# b= int(input("Enter another number"))
+
+# c = int(a + b)
+
+# print(c)
+
