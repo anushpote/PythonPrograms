@@ -37,3 +37,5 @@ age += "1"
 print(f"Adding 1 to age to see what happens: {age}")
 
 #changing string(name) to bool
+name = bool(name) #return true, return false if variable is empty
+print(name)
