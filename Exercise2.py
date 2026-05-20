@@ -11,8 +11,19 @@ import math
 ####################################################################
 # Area of a Circle ( pi * r²)
 
-radius = float(input("Enter the radius of a circle: "))
+# radius = float(input("Enter the radius of a circle: "))
 
-area = math.pi * pow(radius, 2)
+# area = math.pi * pow(radius, 2)
 
-print(f"The area of the circle is: {round(area, 2)}cm²")
+# print(f"The area of the circle is: {round(area, 2)}cm²")
+
+####################################################################
+
+# Hypoteneus of a Right Angled Triangle ( h = sqrt(b²+p²) )
+
+b = float(input("Enter the base: "))
+p = float(input("Enter the perpendicular: "))
+
+h = math.sqrt(pow(b,2) + pow(p,2))
+
+print(f"The hypoteneus of the right angled triangle is: {h} cm")
